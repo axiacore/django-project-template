@@ -45,10 +45,17 @@ LANGUAGE_CODE = 'es-co'
 TIME_ZONE = 'America/Bogota'
 
 USE_I18N = True
-
 USE_L10N = True
-
 USE_TZ = True
 
 STATIC_URL = '/static/'
+
+PASSWORD_HASHERS = (
+    'django.contrib.auth.hashers.BCryptPasswordHasher',
+)
+
+AXES_LOGIN_FAILURE_LIMIT = 10
+AXES_USE_USER_AGENT = True
+AXES_COOLOFF_TIME = 1
+AXES_LOCKOUT_TEMPLATE = '403.html'
 
