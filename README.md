@@ -7,5 +7,7 @@ Feel free to improve as you like :)
 
 Usage:
 
-    django-admin.py startproject --template=https://github.com/axiacore/django-project-template/zipball/master <project_name>
+```bash
+$ django-admin.py startproject --template=https://github.com/axiacore/django-project-template/zipball/master <project_name>
+```
 
