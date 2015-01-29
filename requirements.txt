@@ -1,9 +1,8 @@
 # Framework
-#Django==1.6
-http://www.djangoproject.com/m/releases/1.6/Django-1.6b1.tar.gz
+Django==1.7.4
 
 # Libs
-pep8==1.4.6
+pep8==1.5.7
 psycopg2==2.5.1
 py-bcrypt==0.3
 raven==3.4.0
